@@ -12,7 +12,9 @@ public class Pet extends Animal{
 		this.WeinghtPet =  WeinghtPet;
 		this.SizePet =  SizePet;
 	}
-	
+
+
+	//MUESTRA INFORMACION GENERAL DEL ANIMAL
 	public void ShowDate() {
 		System.out.println("Nombre: "+GetNameAnimal()+
 				"\nRaza: "+GetRaceAnimal()+
